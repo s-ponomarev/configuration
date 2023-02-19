@@ -1,0 +1,27 @@
+call plug#begin('~/.vim/plugged')
+
+" Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive' " https://vimawesome.com/plugin/fugitive-vim
+Plug 'scrooloose/nerdtree' " https://vimawesome.com/plugin/nerdtree-red
+Plug 'vim-airline/vim-airline' " https://vimawesome.com/plugin/vim-airline-superman
+Plug 'vim-airline/vim-airline-themes' " https://vimawesome.com/plugin/vim-airline-superman
+Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim' " https://vimawesome.com/plugin/fzf
+Plug 'sheerun/vim-polyglot' " https://github.com/sheerun/vim-polyglot
+Plug 'flazz/vim-colorschemes' " https://vimawesome.com/plugin/vim-colorschemes-sweeter-than-fiction
+
+" https://vimcolorschemes.com/
+Plug 'morhetz/gruvbox' " https://github.com/morhetz/gruvbox
+Plug 'tomasr/molokai' " https://github.com/tomasr/molokai
+Plug 'rakr/vim-one' " https://github.com/rakr/vim-one
+Plug 'cocopon/iceberg.vim' " https://github.com/cocopon/iceberg.vim
+Plug 'altercation/vim-colors-solarized' " https://github.com/altercation/vim-colors-solarizedi
+Plug 'NLKNguyen/papercolor-theme' " https://github.com/NLKNguyen/papercolor-theme
+Plug 'sainnhe/everforest' " https://github.com/sainnhe/everforest
+
+call plug#end()
+
+"PlugInstall
+"PlugUpdate
+"PlugStatus
+"PlugClean
+"PlugUpgrade
